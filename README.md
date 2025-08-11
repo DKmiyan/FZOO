@@ -33,4 +33,6 @@ CUDA_VISIBLE_DEVICES=0 MODEL=facebook/opt-13b METHOD=FZOO FORWARD_N=8 TASK=WSC M
 # MeZO (full-parameter fine-tune OPT-13B on CB dataset)
 CUDA_VISIBLE_DEVICES=0 MODEL=facebook/opt-13b METHOD=MeZO TASK=WSC MODE=ft LR=1e-6 EPS=1e-3 bash fzoo.sh
 ```
+## License
+Released under the MIT License. See [LICENSE](./LICENSE) for details.
 
