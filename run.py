@@ -493,7 +493,7 @@ class Framework:
             )
         elif self.args.method == "FZOO":
             if self.args.D == 0 :
-                from sstrainer import OurTrainer
+                from trainer import OurTrainer
                 trainer = OurTrainer(
                     model=self.model, 
                     args=self.args,
